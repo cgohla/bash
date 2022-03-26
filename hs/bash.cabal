@@ -42,5 +42,4 @@ library
                                 Language.Bash.PrettyPrinter.State
                                 Language.Bash.Annotations
                                 Language.Bash.Lib
-
-  ghc-options: -Wincomplete-patterns
+  ghc-options                 : -Wincomplete-patterns -Werror
